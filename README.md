@@ -50,6 +50,7 @@ Add new "Supreme Admin" Role
 <p>
 Configure Departments:
 Admin Panel -> Agents -> Departments
+
 Add "System Administrators" Department
 </p>
 <br />
@@ -60,7 +61,9 @@ Add "System Administrators" Department
 <p>
 Configure Teams:
 Admin Panel -> Agents -> Teams
+
 Create Level I Support
+
 Create Level II Support
 </p>
 <br />
@@ -71,6 +74,7 @@ Create Level II Support
 <p>
 Allow anyone to create tickets:
 Admin Panel -> Settings -> User Settings
+
 Registration Required: Require registration and login to create tickets 
 </p>
 <br />
@@ -81,8 +85,8 @@ Registration Required: Require registration and login to create tickets
 <p>
 Configure Agents (workers)
 Admin Panel -> Agents -> Add New
-Create "Jane Doe"
-Create "John Doe"
+
+Create "Jane Doe" & Create "John Doe"
 </p>
 <br />
 
@@ -92,8 +96,8 @@ Create "John Doe"
 <p>
 Configure Users (customers)
 Agent Panel -> Users -> Add New
-Create "Karen"
-Create "Ken"
+
+Create "Karen" & Create "Ken"
 </p>
 <br />
 
@@ -103,8 +107,11 @@ Create "Ken"
 <p>
 Configure SLA:
 Admin Panel -> Manage -> SLA
+
 Sev-A (1 hour, 24/7)
+
 Sev-B (4 hours, 24/7)
+
 Sev-C (8 hours, business hours)
 </p>
 <br />
@@ -115,9 +122,13 @@ Sev-C (8 hours, business hours)
 <p>
 Configure Help Topics:
 Admin Panel -> Manage -> Help Topics
+
 Business Critical Outage
+
 Personal Computer Issues
+
 Equipment Request
+
 Password Reset
 </p>
 <br />
