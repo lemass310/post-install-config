@@ -39,6 +39,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <p>
 Configure Roles: 
 Admin Panel -> Agents -> Roles
+
 Add new "Supreme Admin" Role
 </p>
 <br />
