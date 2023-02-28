@@ -34,18 +34,26 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uQFItX9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+log into osTicket using the following URL: http://localhost/osTicket/scp/login.php
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/jYfwWDD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Configure Roles: 
 Admin Panel -> Agents -> Roles
 
-Add new "Supreme Admin" Role
+Add new "Supreme Admin" Role & give them permission to do anything
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/n4uiWfg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Configure Departments:
@@ -56,7 +64,7 @@ Add "System Administrators" Department
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uqJ1o8j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Configure Teams:
@@ -69,7 +77,7 @@ Create Level II Support
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fLGlW88.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Allow anyone to create tickets:
@@ -80,18 +88,20 @@ Registration Required: Require registration and login to create tickets
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Nmt8cTN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Configure Agents (workers)
 Admin Panel -> Agents -> Add New
 
-Create "Jane Doe" & Create "John Doe"
+Create "Jane Doe" assign to System Administrators & make a Supreme Admin
+
+Create "John Doe" assign to Support Department & give All Access
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/j2gIRkX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Configure Users (customers)
@@ -102,7 +112,7 @@ Create "Karen" & Create "Ken"
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sNeyXSq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Configure SLA:
@@ -117,7 +127,7 @@ Sev-C (8 hours, business hours)
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zE1067b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Configure Help Topics:
